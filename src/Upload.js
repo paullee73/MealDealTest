@@ -7,6 +7,7 @@ class Upload extends Component {
     return (
       <div className="Test">
         This is Upload
+        RAWRRR
       </div>
     );
   }
