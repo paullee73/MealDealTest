@@ -6,7 +6,7 @@ class Find extends Component {
   render() {
     return (
       <div className="Test">
-        This is Find
+        This is Find!!!
       </div>
     );
   }
