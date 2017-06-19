@@ -6,7 +6,6 @@ class Upload extends Component {
   render() {
     return (
       <div className="Test">
-        Hola me llamo Rafael Nadal
         This is Upload
       </div>
     );
