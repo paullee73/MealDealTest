@@ -50,7 +50,7 @@ class Home extends Component {
       <MuiThemeThemeProvider>
         <Router>
           <div>
-            <div>
+            <div className="Logo-Button">
               <Link to="/">
                 <img
                   src={require("./Images/Ok.png")}

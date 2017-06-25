@@ -1,11 +1,16 @@
+/*App.js: Highest-level Home page*/
 .App {
-  background-image: url("./Images/Homepage.png");
+  background: url("./Images/Homepage.png") no-repeat center fixed;
+  background-attachment: fixed;
   background-size: 100%;
+  background-repeat: no-repeat;
   height: 700px;
   width: 100%;
-  padding: 30px;
+  margin: 0;
+  padding: 0;
 }
 
+/*Home page: under .App*/
 .Find-Upload-Buttons {
   position: absolute;
   top: 50%;
@@ -16,22 +21,45 @@
   height: 100px;
 }
 
-.Header {
-  text-align: left;
+.Logo-Button {
+  position: fixed;
+  z-index: 1;
+  padding: 30px;
 }
 
-.Test {
-  background-image: url("./Images/Upload.png");
+/*Upload page: under .Find-Upload-Buttons*/
+.Upload-Page {
+  /*background: url("./Images/Upload.png") no-repeat center center fixed;*/
+  background-color: white;
   background-size: 100%;
   height: 700px;
   width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Child of Upload-Page*/
+.Upload-Form {
+  /*position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;*/
+  /*height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  top: 50%;*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -250px;
+}
+
+.Thank-You {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -150px;
 }
